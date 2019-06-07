@@ -39,12 +39,12 @@ function Phrase(content)
     };
   }
 
-  TranslatedPhrase.prototype = new Phrase();
+  // TranslatedPhrase.prototype = new Phrase();
 
    // Returns content processed for palindrome testing.
   this.processedContent = function processedContent() 
   {
-    return this.content.processor();
+    return this.content.toLowerCase();
   };
 
 
