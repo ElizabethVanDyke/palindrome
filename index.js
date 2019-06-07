@@ -1,3 +1,6 @@
+//Exports:
+module.exports = Phrase;
+
 // Reverses a string.
 String.prototype.reverse = function() 
 {
